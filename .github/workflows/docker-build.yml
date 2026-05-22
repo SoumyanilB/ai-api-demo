@@ -20,7 +20,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker Image
-        run: docker build -t neildocker/ai-api-demo:latest .
+        run: docker build -t neildocker2021/ai-api-demo:latest .
 
       - name: Push Docker Image
-        run: docker push neildocker/ai-api-demo:latest     
+        run: docker push neildocker2021/ai-api-demo:latest     
